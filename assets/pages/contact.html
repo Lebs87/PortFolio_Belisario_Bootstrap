@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Luis Eduardo | Web Developer</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="contact__body">
+    
+    <!--NAVBAR-->
+    <nav class="zone5A">
+        <ul>
+            <li>
+                <a href="../../index.html">Home</a>
+            </li>
+            <li>
+                <a href="profile.html">Profile</a>
+            </li>
+            <li>
+                <a href="skillset.html">Skill-Set</a>
+            </li>
+            <li>
+                <a href="service.html">Service</a>
+            </li>
+            <li>
+                <a href="">Contact</a> 
+            </li>
+        </ul>
+    </nav>  
+
+    <!--CONTACT FORM-->
+    <header class="zone5B headerMargin">
+        <h2>Contact</h2>
+    </header>  
+    <form action="envio.php" class="zone5C contact__form">
+        <fieldset class="contact__form--fieldset minMargin">
+            <legend>Contact Information</legend>
+            <div>
+                <label for="fname" class="minMargin">Name:</label>
+                <input type="text" id:="fname" placeholder="Luis" name="Fname">
+            </div>
+            <div>
+                <label for="lname" class="minMargin">Last Name:</label>
+                <input type="text" id:="lname" placeholder="Belisario" name="Lname">
+            </div>
+            <div>
+                <label for="age" class="minMargin">Age:</label>
+                <input type="number" id="age" placeholder="35" max="90" min="18" name="Age">
+            </div>
+            <div class="minMargin">
+                <p>Sex</p>
+                <label for="sex" class="minMargin">Woman:</label>
+                <input type="radio" id="sex" name="Sex" value="Woman" class="button">
+                <label for="sex" class="minMargin">Man:</label>
+                <input type="radio" id="sex" name="Sex" value="Man" class="button">
+                <label for="sex" class="minMargin">Others:</label>
+                <input type="radio" id="sex" name="Sex" value="Others" class="button">
+            </div>
+            <div>
+                <label for="email" class="minMargin">E-mail:</label>
+                <input type="email" id="email" placeholder="luis@mail.com" name="Email">
+            </div>
+            <div>
+                <label for="tel" class="minMargin">Phone:</label>
+                <input type="tel" id="tel" placeholder="+0900-17288-88" name="Phone">
+            </div>
+        </fieldset>
+        <fieldset class="contact__form--fieldset minMargin">
+            <legend>Application Form</legend>
+            <div>
+                <label for="service" class="minMargin">Service Required?</label>
+                <select name="Service" id="service" class="button">
+                    <option value="--">--</option>
+                    <option value="Website Design">Website Design</option>
+                    <option value="Collaborative Work">Collaborative Work</option>
+                    <option value="Tutoring">Tutoring</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment" class="minMargin">Leave your comment:</label>
+                <textarea placeholder="  Hi! I want..." id="coment" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="information" class="minMargin">Do you want to receive information about us?</label>
+                <input type="checkbox" id="information" name="Information" value="Yes" class="button">
+            </div>
+        </fieldset>        
+        <div class="contact__form--div">
+            <input type="reset" value="Reset" class="minMargin w20 button">
+            <input type="submit" value="Confirm" class="minMargin w20 button">
+        </div>
+    </form>
+ 
+    <!--LOCATION-->
+    <aside class="zone5D textCenter">
+        <h3 class="minMargin">Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11707.262749266916!2d86.91622032349422!3d27.988119872821105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e854a215bd9ebd%3A0x576dcf806abbab2!2sMonte%20Everest!5e1!3m2!1ses-419!2sar!4v1653875028900!5m2!1ses-419!2sar" width="auto" height="auto" style="border: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+
+    <!--FOOTER-->
+    <footer class="zone5E">
+        <h2 class="textCenter">Socials</h2>
+        <!--SOCIALS-->
+        <section class="footerSection">
+            <div class="socialMargin">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="../images/twitter.png" width="60" alt="Twitter" class="backgroundImg">
+                </a>
+            </div>
+            <div class="socialMargin">
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="../images/linkedin.png" width="60" alt="Linkedin" class="backgroundImg">
+                </a>
+            </div>
+            <div class="socialMargin">
+                <a href="https://github.com" target="_blank">
+                    <img src="../images/github.png" width="60" alt="Github" class="backgroundImg">
+                </a>
+            </div>
+        </section>
+
+        <!--PUBLIC DOMAIN-->
+        <section class="footerSection">
+            <img src="../images/publicdomain.png" width="100" height="40" alt="public domain">
+            <p class="domainMargin">2022 Luis Belisario. Web Developer.</p>
+        </section>
+    </footer>
+</body>
+</html>
