@@ -13,9 +13,6 @@
     color: hsl(0, 0%, 47%);
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
-    background-color: hsl(240, 3%, 27%);
-    opacity: 80%;
-    border-radius: 5rem;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 50% 80%;
     background-repeat: no-repeat;
